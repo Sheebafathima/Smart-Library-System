@@ -1,20 +1,93 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Smart Library Management System
 
-# Run and deploy your AI Studio app
+A modern and responsive Library Management System built using React, Node.js, Express, and MongoDB. This project helps librarians and students manage books, issue/return records, user accounts, and fines efficiently through a clean and user-friendly interface.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/b35ad87a-97c3-471e-8ee0-813701722c50
+# Features
 
-## Run Locally
+## Authentication
+- Admin Login
+- Student Login
+- Secure Authentication
+- Protected Routes
 
-**Prerequisites:**  Node.js
+## Dashboard
+- Total Books Count
+- Issued Books Statistics
+- Returned Books Statistics
+- Active Users Overview
 
+## Book Management
+- Add New Books
+- Edit Book Details
+- Delete Books
+- Search Books
+- Filter Books
+- Upload Book Covers
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Issue & Return System
+- Issue Books to Students
+- Return Books
+- Track Due Dates
+- Automatic Fine Calculation
+
+## User Management
+- Add Students
+- Manage Users
+- View Borrowing History
+
+## UI Features
+- Responsive Design
+- Modern Dashboard
+- Sidebar Navigation
+- Dark/Light Mode
+- Interactive Tables and Cards
+
+---
+
+# Tech Stack
+
+## Frontend
+- React
+- Tailwind CSS
+- TypeScript
+
+## Backend
+- Node.js
+- Express.js
+
+## Database
+- MongoDB
+
+---
+
+# Project Structure
+
+smart-library-system/
+│
+├── client/
+│   ├── src/
+│   ├── components/
+│   ├── pages/
+│   └── assets/
+│
+├── server/
+│   ├── routes/
+│   ├── controllers/
+│   ├── models/
+│   └── middleware/
+│
+├── .env
+├── package.json
+├── server.ts
+└── README.md
+
+---
+
+# Installation
+
+## Clone the Repository
+
+```bash
+git clone <repository-url>
