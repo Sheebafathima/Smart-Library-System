@@ -1,0 +1,6 @@
+{
+  "name": "Smart Library System",
+  "description": "An intelligent full-stack library management system featuring live issue-return logging, fine calculations, multi-role dashboards, and digital book recommendations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
